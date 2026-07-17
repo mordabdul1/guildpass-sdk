@@ -38,8 +38,8 @@
     "LICENSE"
   ],
   "scripts": {
-    "dev": "tsup --watch",
-    "build": "tsup",
+    "dev": "node api.js && tsup --watch",
+    "build": "node api.js && tsup",
     "test": "vitest",
     "test:run": "vitest run",
     "test:compat": "vitest run --workspace=browser-jsdom --workspace=edge",
