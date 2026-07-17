@@ -1,0 +1,18 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "feat/pluggable-rpc-provider",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "feat/pluggable-rpc-provider": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "feat/pluggable-rpc-provider",
+    "origin"
+  ]
+}
